@@ -1,9 +1,10 @@
 from distutils.core import setup
 
 setup(
-    name='chimera_template',
+    name='chimera_lcogtweatherstation',
     version='0.0.1',
-    packages=['chimera_template', 'chimera_template.instruments', 'chimera_template.controllers'],
+    packages=['chimera_lcogtweatherstation', 'chimera_lcogtweatherstation.instruments',
+              'chimera_lcogtweatherstation.controllers'],
     scripts=[],
     url='http://github.com/astroufsc/chimera-template',
     license='GPL v2',
