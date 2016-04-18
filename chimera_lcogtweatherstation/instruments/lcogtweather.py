@@ -6,7 +6,7 @@ from chimera.core.exceptions import OptionConversionException
 from chimera.core.lock import lock
 from chimera.instruments.weatherstation import WeatherBase
 from chimera.interfaces.weatherstation import WSValue
-# this imports are for lcgot scraper and filter
+# these imports are for lcgot scraper and filter
 import json
 import re
 import requests
